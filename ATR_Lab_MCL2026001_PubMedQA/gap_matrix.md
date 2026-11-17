@@ -1,6 +1,6 @@
 # Verified-review-to-experiment gap matrix — Prompt 02
 
-Source passages below refer to the 10-page final mid-semester review (`MDE_01_Kartik_Prakhar_Updated (1).pdf`), not to a newly completed systematic literature search. A review-observed limitation is not itself a demonstration of novelty.
+Source passages below refer to the 10-page final mid-semester review (`MCL_01_Aditya_Mohan_Saha_Updated (1).pdf`), not to a newly completed systematic literature search. A review-observed limitation is not itself a demonstration of novelty.
 
 | Candidate gap | Review location / primary literature | Evidential status | Narrow experiment | Feasibility / rank |
 |---|---|---|---|---|
