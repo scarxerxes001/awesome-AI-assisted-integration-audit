@@ -1,6 +1,6 @@
 # AI Tools for Research Lab 02 — PubMedQA factual accuracy case study
 
-**Researcher:** Kartik Prakhar (MDE2026001)  
+**Researcher:** Aditya Mohan Saha (MCL2026001)  
 **Title:** *Evidence-Grounded Prompting and Abstention in Biomedical Question Answering: A Reproducible PubMedQA Case Study*
 
 ## What this project investigates
