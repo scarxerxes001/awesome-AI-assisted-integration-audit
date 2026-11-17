@@ -1,0 +1,16 @@
+{
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.6.1",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": null,
+  "seed": 20261113,
+  "batch_size": 8,
+  "max_new_tokens": 4,
+  "decoding": "greedy",
+  "parser": "exact label with optional final period or exclamation mark"
+}

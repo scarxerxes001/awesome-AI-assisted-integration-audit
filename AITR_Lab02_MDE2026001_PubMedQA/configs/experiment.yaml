@@ -1,0 +1,23 @@
+experiment_name: pubmedqa_context_and_abstention
+status: retrospectively_captured_from_executed_colab
+seed: 20261113
+dataset:
+  url: https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/data/ori_pqal.json
+  sha256: 8b3276be8942ebbd77f3ddcda12c1749bf0e490045a736fd8438ee40cf37a41d
+  subset: PQA-L
+  split: custom_label_stratified_80_20
+  development_count: 800
+  test_count: 200
+  label_order: [yes, no, maybe]
+model:
+  id: Qwen/Qwen2.5-0.5B-Instruct
+  revision: null
+  precision: float16_on_cuda
+  max_new_tokens: 4
+  do_sample: false
+  batch_size: 8
+  chat_template: tokenizer.apply_chat_template
+conditions: [majority, direct, context, context_abstain]
+primary_metrics: [accuracy, macro_f1]
+secondary_metrics: [coverage, selective_accuracy, abstention_rate, invalid_rate]
+archived_execution_platform: Google_Colab_Tesla_T4

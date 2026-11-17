@@ -1,0 +1,13 @@
+{
+  "source": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/master/data/ori_pqal.json",
+  "sha256": "8b3276be8942ebbd77f3ddcda12c1749bf0e490045a736fd8438ee40cf37a41d",
+  "total": 1000,
+  "development": 800,
+  "test": 200,
+  "label_counts": {
+    "yes": 552,
+    "maybe": 110,
+    "no": 338
+  },
+  "development_majority": "yes"
+}

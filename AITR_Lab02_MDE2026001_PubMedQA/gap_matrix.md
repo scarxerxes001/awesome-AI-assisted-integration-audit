@@ -1,0 +1,15 @@
+# Verified-review-to-experiment gap matrix — Prompt 02
+
+Source passages below refer to the 10-page final mid-semester review (`MDE_01_Kartik_Prakhar_Updated (1).pdf`), not to a newly completed systematic literature search. A review-observed limitation is not itself a demonstration of novelty.
+
+| Candidate gap | Review location / primary literature | Evidential status | Narrow experiment | Feasibility / rank |
+|---|---|---|---|---|
+| Evidence availability versus answer agreement | Review pp. 5–7, Sections 6–7; PubMedQA (Jin et al., 2019) and ALCE (Gao et al., 2023) | VERIFIED that the review distinguishes task accuracy from source support; INFERRED that providing the matched context would help this checkpoint | Compare question-only and matched-abstract prompts on held-out PQA-L records, preserving model/decoding | **1**, feasible with Colab; **selected** |
+| Abstention and class-specific failure | Review p. 5 Table 2 and pp. 7–8; discussion of calibration, uncertainty and evaluator reliability | VERIFIED as a review concern; whether a prompt actually produces abstentions is UNKNOWN before running | Add explicit `abstain` choice; measure coverage, selective accuracy and no-class recall | **2**, same inference pipeline; selected as secondary question |
+| Citation support versus citation presence | Review pp. 2–3 and 7, ALCE description | VERIFIED in original ALCE paper (ACL Anthology, 2023) as a distinct evaluation dimension; no claim that this project measures it | Generate sourced sentences and score whether each citation supports its claim | **3**, needs evidence annotation not available in the current run; deferred |
+| Reliability of automatic claim evaluators | Review pp. 2 and 7; FELM (Chen et al., NeurIPS 2023), FActScore (Min et al., 2023) | VERIFIED that the cited methods evaluate fine-grained factuality; no evaluator was deployed in this project | Compare automatic claim scoring with independently reviewed labels | Feasible future extension but needs annotation and different output format |
+| Unified cross-domain / temporal verification | Review pp. 7–8, Sections 8–9 | VERIFIED as an explicitly proposed review direction; priority/novelty not established | Common evidence-grounded protocol across PubMedQA and another scientific QA benchmark, optionally stratified by evidence date | More time and harmonization; deferred |
+
+**Study pathway:** B, controlled comparative study. Three same-model prompts plus a development majority baseline. This is a small scoped investigation within biomedical QA; it does **not** itself benchmark accuracy across multiple scientific disciplines or replicate FActScore, FELM, or ALCE.
+
+**Evidence hierarchy:** Official PubMedQA paper and repository, verified primary sources for ALCE and FELM, the uploaded review, the executed notebook, and saved outputs. Unknown: whether this exact prompt comparison was previously published, model checkpoint revision, or whether pretrained weights contain test-set data. Do not describe the work as a novel algorithm.

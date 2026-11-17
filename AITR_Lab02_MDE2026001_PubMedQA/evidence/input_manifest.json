@@ -1,0 +1,9 @@
+{
+  "original_uploads": {
+    "Untitled19.ipynb": "7784ff502b02e049bae8131452bef5b61c357bb9243ce6880ad4d21ff9532f93",
+    "ATR_Lab02_Submission.zip": "32f58887d4653f7b07f0d70c50f4ff30577c21184cd5b1de2d9af534b4216ac5",
+    "ATR_Experiment_Results.zip": "3835983b7ac4cf632b077985a05114a8ddc91b5aab2bde292c97f1389ed77afa"
+  },
+  "dataset_sha256_recorded_by_colab": "8b3276be8942ebbd77f3ddcda12c1749bf0e490045a736fd8438ee40cf37a41d",
+  "notes": "SHA-256 of input archives and executed notebook; original dataset bytes were not included in user uploads."
+}

@@ -1,0 +1,5 @@
+comparison,reference,both_correct,comparison_only_correct,reference_only_correct,both_incorrect,absolute_accuracy_difference
+context,direct,16,19,6,159,0.065
+context_abstain,context,32,9,3,156,0.03
+context_abstain,direct,16,25,6,153,0.095
+majority,context_abstain,25,85,16,74,0.345
