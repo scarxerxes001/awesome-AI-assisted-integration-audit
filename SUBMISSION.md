@@ -1,7 +1,7 @@
 # Submission Details
 
-- **Student name:** Kartik Prakhar
-- **Roll number:** MDE2026001
+- **Student name:** Aditya Mohan Saha
+- **Roll number:** MCL2026001
 - **Assigned research topic:** Benchmarking Factual Accuracy of Large Language Models Across Scientific Domains
 - **Repository name:** `awesome-scientific-llm-factuality`
 - **GitHub profile URL:** Add after confirming your public GitHub profile.
